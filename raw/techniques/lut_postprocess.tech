@@ -1,0 +1,16 @@
+{
+	stateMap "default2d";
+
+	vertexShader 3.0 "lut_postprocess"
+	{
+	}
+
+	pixelShader 3.0 "lut_postprocess"
+	{
+		colorMapSampler = material.colorMap;
+		colorMapPostSunSampler = sampler.resolvedPostSun;
+	}
+
+	vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+}
