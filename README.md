@@ -34,7 +34,7 @@ Those are the settings you MUST use to make a working LUT PostProcess:
 - Template: shadergen_2d_single_image
 - String: lut_postprocess
 - Colormap: <Pick your TGA here>
-  - Tiling: No tile
+  - Tiling: no tile
   - Filter: nomip nearest
   - Compression: Uncompressed
 
