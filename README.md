@@ -45,13 +45,16 @@ Those are the settings you MUST use to make a working LUT PostProcess:
 # Importing and applying the effect
 
 You need to import your material in your map's csv or in your mod's csv.
-The next thing to do is to precache the shader in your main script using: preCacheShader("<material name>");
-
+The next thing to do is to precache the shader in your main script using:
+```
+preCacheShader("<material name>");
+```
 Finally to apply the shader you need to create a fullscreen clienthud item witht the material applied.
 If you want it to apply fastly you can use the provided gsc to apply it using:
-
+```
 self postprocess::applyPostProcess(shader);
-
+```
 and to remove it using:
-
+```
 postprocess::removePostProcess();
+```
