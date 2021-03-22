@@ -34,10 +34,10 @@ Once the shader is correctly compiled hop on the asset manager and create a mate
 Those are the settings you MUST use to make a working LUT PostProcess:
 
 - Material type: Custom
-- Surface type: <none>
+- Surface type: < none >
 - Template: shadergen_2d_single_image
 - String: lut_postprocess
-- Colormap: <Pick your TGA here>
+- Colormap: < Pick your TGA here >
   - Tiling: no tile
   - Filter: nomip nearest
   - Compression: Uncompressed
