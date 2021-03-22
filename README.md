@@ -13,6 +13,8 @@ To create a lut you need a default LUT strip (256x16), you can find it online or
 
 ![LUT](https://i.imgur.com/irhbUGC.png)
 
+If you wish to use an existing LUT be sure that it's size is 256x16 pixels.
+
 - Take a screenshot in game and open it up on photoshop, overlay the LUT somewhere in the screenshot (be careful to not resize it!).
 - Modify the image as you please, keep in mind that this will be what you will see ingame.
 - Once done, remove all of the image so you have only the processed LUT.
