@@ -1,6 +1,7 @@
 # Call of Duty 4 - LUT PostProcess Shader
 
 A Call of Duty 4 shader used to apply LUT tables onto a player's view
+
 A LUT (or Lookup Table) is a technique to map a table of colors and match them on an image (or in this case a 3D Enviroment)
 
 This is an example of how a lookup table influences the colors (top is the original LUT, bottom is the modified):
@@ -23,6 +24,7 @@ If you wish to use an existing LUT be sure that it's size is 256x16 pixels.
 # Compiling the shader
 
 To compile the shader you will need the xoxor's shader compiler wich you can get by [clicking here](https://xoxor4d.github.io/projects/cod4-compileTools/).
+
 Without xoxor this wouldn't be possible, go and check out his site by [clicking here](https://xoxor4d.github.io).
 
 # Creating the material
