@@ -7,7 +7,7 @@ This is an example of how a lookup table influences the colors (top is the origi
 
 ![Preview](https://i.imgur.com/xIzuJDT.jpeg)
 
-#Creating a LUT
+# Creating a LUT
 
 To create a lut you need a default LUT strip (256x16), you can find it online or you can use this one:
 
@@ -18,12 +18,12 @@ To create a lut you need a default LUT strip (256x16), you can find it online or
 - Once done, remove all of the image so you have only the processed LUT.
 - Export it as TGA so the image will not compress
 
-#Compiling the shader
+# Compiling the shader
 
 To compile the shader you will need the xoxor's shader compiler wich you can get by [clicking here](https://xoxor4d.github.io/projects/cod4-compileTools/).
 Without xoxor this wouldn't be possible, go and check out his site by [clicking here](https://xoxor4d.github.io).
 
-#Creating the material
+# Creating the material
 
 Once the shader is correctly compiled hop on the asset manager and create a material.
 
@@ -38,7 +38,7 @@ Those are the settings you MUST use to make a working LUT PostProcess:
   - Filter: nomip nearest
   - Compression: Uncompressed
 
-#Importing and applying the effect
+# Importing and applying the effect
 
 You need to import your material in your map's csv or in your mod's csv.
 The next thing to do is to precache the shader in your main script using: preCacheShader("<material name>");
