@@ -56,5 +56,5 @@ self postprocess::applyPostProcess(shader);
 ```
 and to remove it using:
 ```
-postprocess::removePostProcess();
+self postprocess::removePostProcess();
 ```
