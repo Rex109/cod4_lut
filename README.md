@@ -1,6 +1,6 @@
 # Call of Duty 4 - LUT PostProcess Shader
 
-A Call of Duty 4 shader used to apply LUT tables onto a player's view
+A Call of Duty 4 shader used to apply color LUTs onto a player's view
 
 A LUT (or Lookup Table) is a technique to map a table of colors and match them on an image (or in this case a 3D Enviroment)
 
